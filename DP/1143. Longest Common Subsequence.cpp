@@ -3,7 +3,7 @@ class Solution {
 public:
     int t[1001][1001];
 
-    int solve(string text1, string text2, int n1, int n2){
+    int solve(string &text1, string &text2, int n1, int n2){
         if(n1 == 0 || n2 == 0)
             return t[n1][n2] = 0;
 
